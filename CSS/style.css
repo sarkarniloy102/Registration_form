@@ -20,6 +20,7 @@
     background-color: orange;
 }
 
+/* index.html */
 /* header part start */
 
 /* start navigiation bar */
@@ -91,4 +92,16 @@
     padding: 10px;
     border-radius: 10px;
     box-shadow: 8px 8px 15px slategrey;
+}
+
+/* Reg.html */
+
+.section_container {
+    /* text-align: center; */
+
+    background-color: rgb(223, 171, 101);
+    width: 450px;
+    margin: auto;
+    box-shadow: 8px 8px 20px rgb(173, 177, 83);
+    display: block;
 }
