@@ -1,0 +1,45 @@
+/* shared styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.span_tag {
+    color: rgb(71, 20, 20);
+}
+
+
+/* header part start */
+
+/* start navigiation bar */
+.nav_container {
+    display: flex;
+    justify-content: space-around;
+    background-color: darksalmon;
+    color: rgb(20, 29, 71);
+    padding: 20px;
+}
+
+.menulist {
+    display: flex;
+    list-style: none;
+}
+
+.menulist li a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(20, 29, 71);
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 5px 20px;
+    background-color: bisque;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menulist a:hover {
+    color: orange;
+    background-color: gray;
+    font-size: 25px;
+    padding: 8px 25px;
+}
