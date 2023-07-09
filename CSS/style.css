@@ -27,9 +27,21 @@
 .nav_container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: darksalmon;
     color: rgb(20, 29, 71);
     padding: 30px;
+}
+
+.navhead a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navhead a:hover {
+    color: rgb(43, 105, 10);
+    font-size: 35px;
 }
 
 .menulist {
@@ -143,7 +155,7 @@
 }
 
 .txtarea {
-    width: 73%;
+    width: 71.5%;
 }
 
 .gends {
@@ -160,10 +172,12 @@
 }
 
 .agreatri {
-    padding: 20px 80px 0 80px;
+    padding: 20px 200px 0 200px;
+    color: rgb(0, 0, 0);
+
 }
 
-#btn1 {
+.btn1 {
     width: 70%;
     padding: 10px;
     border-radius: 10px;
@@ -171,14 +185,49 @@
     background-color: antiquewhite;
     cursor: pointer;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
-#btn1:hover {
+.btn1:hover {
     background-color: rgb(204, 179, 146);
     color: rgb(179, 46, 46);
 }
 
-.section_container a {
+.ancor {
+    text-decoration: none;
+    color: rgb(129, 212, 161);
+
+}
+
+/* login part start */
+.logmain {
+    height: 100vh;
+    background-image: url('../images/lockback.jpg');
+    background-size: cover;
+}
+
+.log_container {
+    width: 50vh;
+    height: 70vh;
+
+    /* margin-top: 8%; */
+}
+
+.logpassarea {
+    width: 80%;
+}
+
+.forgot {
+    /* text-align: right; */
+    width: 40%;
+    margin-left: 52%;
+    margin-bottom: 5px;
+    /* border: 3px solid yellow; */
+    /* padding: 25px; */
+}
+
+.forgot a {
+
     text-decoration: none;
 
 }
