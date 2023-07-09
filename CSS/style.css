@@ -96,12 +96,81 @@
 
 /* Reg.html */
 
-.section_container {
-    /* text-align: center; */
-
-    background-color: rgb(223, 171, 101);
-    width: 450px;
+.bannerhead4 {
+    width: 60%;
     margin: auto;
-    box-shadow: 8px 8px 20px rgb(173, 177, 83);
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 8px antiquewhite;
+
+}
+
+.form_container {
+    text-align: center;
+    width: 500px;
+    height: 100vh;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    box-shadow: 8px 8px 16px rgb(193, 88, 13);
+}
+
+.label_tag {
     display: block;
+    text-align: left;
+    padding: 15px;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.label_tag input {
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 0;
+
+}
+
+.txtarea {
+    width: 73%;
+}
+
+.gends {
+    font-weight: 400;
+    margin-right: 40px;
+}
+
+.birth {
+    width: 67%;
+}
+
+.passarea {
+    width: 67.5%;
+}
+
+.agreatri {
+    padding: 20px 80px 0 80px;
+}
+
+#btn1 {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#btn1:hover {
+    background-color: rgb(204, 179, 146);
+    color: rgb(179, 46, 46);
+}
+
+.section_container a {
+    text-decoration: none;
+
 }

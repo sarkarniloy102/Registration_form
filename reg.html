@@ -10,21 +10,66 @@
 
 <body>
 
-    <header class="nav_container">
-        <h1 class="bannerhead2">Please Registration Here</h1>
+    <header>
+        <nav>
+            <div class="nav_container">
+                <div class="right_container">
+                    <h2 class="navhead"><span class="span_tag">Re</span>gistra</h2>
+                </div>
+                <div class="navmenu">
+                    <ul class="menulist">
+                        <li><a href="reg.html">Registration</a></li>
+                        <li><a href="">Log in</a></li>
+                        <li><a href="">Blogs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section class="section_container">
-            <label for="">
-                Name: <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last name">
-            </label> <br>
-            <label for="">
-                Email: <input type="email" placeholder="enter your mail">
-            </label> <br>
-            <label for="">Phone No. <input type="number" placeholder="enter phone number"></label>
-        </section>
+        <div class="form_container">
+            <h2 class="bannerhead4">Please Registration Here</h2>
+            <form class="section_container">
+                <label class="label_tag" for="">
+                    Name: <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last name">
+                </label>
+                <label class="label_tag" for="">
+                    Email: <input class="txtarea" type="email" placeholder="enter your mail">
+                </label>
+                <label class="label_tag " for="">Phone:
+                    <input class="txtarea" type="number" placeholder="enter phone number">
+                </label>
+
+                <label class="label_tag gend" for="male">Gender:
+                    <input type="radio" name="gender" id="male"> <span class="gends">male</span>
+                    <input type="radio" name="gender" id="female"><span class="gends">Female</span>
+                    <input type="radio" name="gender" id="female"><span class="gends">Others</span>
+                </label>
+
+                <label class="label_tag" for="birth">Birthdate:
+                    <input class="txtarea birth" type="date" id="birth">
+                </label>
+
+                <label for="" class="label_tag"> Password:
+                    <input class="passarea" type="password">
+                </label>
+                <label for="" class="label_tag">Confirm <br> Password:
+                    <input class="passarea" type="password">
+                </label>
+
+                <label for="agree" class="label_tag agreatri">
+                    <input type="checkbox" name="" id="agree"> <small>I agree to the Terms of Service and Privacy
+                        Policy.</small>
+                </label>
+
+                <button id="btn1">sign Up</button>
+
+                <p>have you already an account? <a href=""> <strong>Log in</strong> </a></p>
+
+            </form>
+        </div>
     </main>
 
 </body>
