@@ -135,6 +135,10 @@
     box-shadow: 10px 10px 20px rgb(20, 20, 21);
 }
 
+.name_text input {
+    width: 34%;
+}
+
 .label_tag {
     display: block;
     text-align: left;
@@ -186,11 +190,12 @@
     cursor: pointer;
     margin-bottom: 20px;
     margin-top: 10px;
+    background-color: chocolate;
 }
 
 .btn1:hover {
-    background-color: rgb(204, 179, 146);
-    color: rgb(179, 46, 46);
+    background-color: rgb(179, 146, 102);
+    color: rgb(165, 32, 32);
 }
 
 .ancor {
@@ -230,4 +235,36 @@
 
     text-decoration: none;
 
+}
+
+/* start Blog part ____blog.html */
+
+.section1_container {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+.blog1 {
+    width: 350px;
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid darkslateblue;
+    background-color: khaki;
+}
+
+.blog1 p {
+    margin-top: 10px;
+    color: rgb(139, 76, 53);
+    font-size: 20px;
+}
+
+.blog1 button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: red;
+    cursor: pointer;
 }
